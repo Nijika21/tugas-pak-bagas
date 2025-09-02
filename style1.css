@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* yt 1 */
+.div1{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+}
+.span1{
+    background-color: red;
+}
+
+.div2{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+    /*tidak diperlukan display block karena tag div memang dalam kategori block*/
+}
+.span2{
+    background-color: red;
+    height: 50px;
+    width: 50px;    
+    display: block; /*menjadi block*/
+}
+
+.div3{
+    background-color: palevioletred;
+    display: inline;
+}
+.span3{
+    background-color: red;
+    /* tidak memerlukan display inline karena tag span termasuk kategori inline */
+}
+
+.div4{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.span4{
+    background-color: red;
+    height: 50px;
+    width: 50px;    
+    display: inline-block;
+}   
+
+.div5{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    visibility: hidden;
+}
+.span5{
+    background-color: red;
+    height: 50px;
+    width: 50px;    
+    display: inline-block;
+}  
+.div6{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;    
+    display: none;
+}
+
+.container1{
+    display: grid;
+    gap: 1rem;
+}
+.container2{
+    display: flex;
+    gap: 1rem;
+}
