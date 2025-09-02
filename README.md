@@ -1,2 +1,4 @@
 # tugas-pak-bagas
-tugas pplg
+
+[Deploy](https://nijika21.github.io/tugas-pak-bagas/)
+
