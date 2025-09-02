@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* overflow default */
+.over1{
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: visible;
+}
+
+/* Overflow Hidden */
+.over2 {
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: hidden;
+}
+
+/* Overflow Clip */
+
+.over3 {
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: clip;
+}
+
+.over4 {
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: clip;
+    overflow-clip-margin: 20px;
+}
+
+/* Overflow Scroll */
+.over5 {
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    overflow: scroll;
+}
